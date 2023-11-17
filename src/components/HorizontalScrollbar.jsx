@@ -1,9 +1,9 @@
 // import { useContext } from "react";
 
 // import { Box, Typography } from "@mui/material";
-// import ExerciseCard from "./ExerciseCard";
+// import {ExerciseCard} from "./";
 
-// import BodyPart from "./BodyPart";
+// import {BodyPart} from "./";
 // import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 // // we get the bodyParts array starting with all here and we map over it and we extract each string, so from new to the rest
 // import RightArrowIcon from "../assets/icons/right-arrow.png";
@@ -59,8 +59,8 @@ import React, { useContext } from "react";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import { Box, Typography } from "@mui/material";
 
-import ExerciseCard from "./ExerciseCard";
-import BodyPart from "./BodyPart";
+import { ExerciseCard } from "./";
+import { BodyPart } from "./";
 import RightArrowIcon from "../assets/icons/right-arrow.png";
 import LeftArrowIcon from "../assets/icons/left-arrow.png";
 
